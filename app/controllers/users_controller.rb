@@ -1,5 +1,7 @@
 class UsersController < ActionController::Base
-  def index
+  layout "user"
 
+  def index
+    
   end
 end
