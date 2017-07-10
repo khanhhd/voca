@@ -1,0 +1,23 @@
+
+
+<button type="button" class="btn btn-primary">New</button>
+<div class="panel panel-default"  ng-controller="categoriesController" ng-init="inintData(<%= @categories %>)">
+  <div class="panel-heading center"><h1>Category List</h1></div>
+  <table class="table">
+    <thead>
+      <th>Name</th>
+      <th>Description</th>
+      <th>Action</th>
+    </thead>
+    <tbody>
+      <tr ng-repeat="category in categories">
+        <td>{{category.name}}</td>
+        <td>{{category.description}}</td>
+        <td>
+          <button type="button" class="btn btn-primary">Edit</button>
+          <button type="button" class="btn btn-danger">Delete</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

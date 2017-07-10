@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title></title>
+    <title>VOCA</title>
     <%= csrf_meta_tags %>
     <%= stylesheet_link_tag    'application', media: 'all' %>
     <%= javascript_include_tag 'application' %>
@@ -10,7 +10,7 @@
       </script>
     <![endif]-->
   </head>
-  <body>
+  <body ng-app="vocaApp">
     <header class="navbar navbar-fixed-top navbar-inverse">
       <div class="container">
         <%= link_to "Vocabulary", '#', id: "logo" %>
