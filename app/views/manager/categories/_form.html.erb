@@ -1,11 +1,11 @@
 <form>
   <div class="form-group">
     <label for="group-name">Name</label>
-    <input type="text" class="form-control" id="group-name" placeholder="Name">
+    <input type="text" class="form-control" id="group-name" placeholder="Name" ng-model="vm.category.name">
   </div>
   <div class="form-group">
     <label for="group-description">Description</label>
-    <input type="textarea" class="form-control" id="group-description" placeholder="Group">
+    <input type="textarea" class="form-control" id="group-description" placeholder="Group" ng-model="vm.category.description">
   </div>
-  <button type="submit" class="btn btn-default">Submit</button>
+  <button type="submit" class="btn btn-default" ng-click="vm.submit(vm.category)">Submit</button>
 </form>

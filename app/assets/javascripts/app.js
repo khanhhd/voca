@@ -1,2 +1,4 @@
 
-(function() { angular.module('vocaApp', [])})();
+(function() {
+  angular.module('vocaApp',  ['ui.bootstrap']);
+})();

@@ -1,11 +1,11 @@
 'use strict';
 
-angular.module('vocaApp')
+angular.module('vocaApp', ['ui.bootstrap'])
   .controller('categoriesController', categoriesController);
 
-categoriesController.$inject = ['$scope'];
+categoriesController.$inject = ['$scope', '$uibModal'];
 
-function categoriesController($scope) {
+function categoriesController($scope, $uibModal) {
   $scope.inintData = function(categories) {
     $scope.categories = categories;
   }

@@ -1,0 +1,13 @@
+{
+  "name": "voca",
+  "homepage": "https://github.com/khanhhd/voca",
+  "authors": [
+    "khanhhd"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "dependencies": {
+    "angular-bootstrap": "^2.5.0"
+  }
+}
